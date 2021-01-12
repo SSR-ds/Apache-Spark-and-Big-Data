@@ -18,3 +18,6 @@ Transformations : If we take spark dataframe the data is partitioned and distrib
 
                   1) Narrow : child RDD will refer to only one parent RDD (union)
                   2) Wide : child RDD will refer to multiple parent RDD (groupBy)
+  
+ Map function : will create tuple for each element - can be said as one to one transformation
+ FlatMap function : will no create tuple for each element and everything will be displayed in a list - can be said as one to many
