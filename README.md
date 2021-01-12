@@ -13,3 +13,8 @@
             > Further the explain concept in spark explains the action function performed in it
             > Every action in spark is done through three basic steps takes raw data, does some transformations and aggregates the data, which can be seen by df.explain()
             
+
+Transformations : If we take spark dataframe the data is partitioned and distributed which makes spark fast for large datasets. Hence there are two types of transformations in                       spark - Resilient Distributed Datasets (RDDs) are fundamental data structure in spark
+
+                  1) Narrow : child RDD will refer to only one parent RDD (union)
+                  2) Wide : child RDD will refer to multiple parent RDD (groupBy)
