@@ -21,3 +21,7 @@ Transformations : If we take spark dataframe the data is partitioned and distrib
   
  Map function : will create tuple for each element - can be said as one to one transformation
  FlatMap function : will no create tuple for each element and everything will be displayed in a list - can be said as one to many
+ 
+Sort and OrderBy are more costlier transformations, hence we can use SortWithinPartitions that would sort by partitions and we can also use multiple columns in that instead of using one column
+
+approxQuantile - to get Quantiles in the dataset, more the confidence interval, more the time it is going to take
