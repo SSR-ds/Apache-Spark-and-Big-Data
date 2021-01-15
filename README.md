@@ -30,10 +30,10 @@ approxQuantile - to get Quantiles in the dataset, more the confidence interval, 
 
 
 5) Reading data into databricks to do analysis with spark from S3 buckets in AWS. 
-            > Create a bucket, load in the files inside the bucket
-            > Create an IAM Access with necessary access and permissions
-            > Once the permissions is granted copy the access key and secret key
-            > Use the command line to read in the file inside the databricks 
-            > Check for the spacing and check if the file is read properly or else use 
-                        >  .option("multiline","true") to give a multiline options 
+                                                                                                                                                                                             > Create a bucket, load in the files inside the bucket
+                                                                                                                                                                                             > Create an IAM Access with necessary access and permissions
+                                                                                                                                                                                             > Once the permissions is granted copy the access key and secret key
+                                                                                                                                                                                             > Use the command line to read in the file inside the databricks 
+                                                                                                                                                                                             > Check for the spacing and check if the file is read properly or else use 
+                                                                                                                                                                                                        >  .option("multiline","true") to give a multiline options 
 
