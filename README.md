@@ -27,3 +27,13 @@ Transformations : If we take spark dataframe the data is partitioned and distrib
 Sort and OrderBy are more costlier transformations, hence we can use SortWithinPartitions that would sort by partitions and we can also use multiple columns in that instead of using one column
 
 approxQuantile - to get Quantiles in the dataset, more the confidence interval, more the time it is going to take
+
+
+5) Reading data into databricks to do analysis with spark from S3 buckets in AWS. 
+     > Create a bucket, load in the files inside the bucket
+     > Create an IAM Access with necessary access and permissions
+     > Once the permissions is granted copy the access key and secret key
+     > Use the command line to read in the file inside the databricks 
+     > Check for the spacing and check if the file is read properly or else use 
+            >  .option("multiline","true") to give a multiline options 
+
